@@ -1,0 +1,17 @@
+rand answer,0,100
+while I,0,<,5
+	printn ("Guess a number 0 to 100")
+	input guess
+	if (guess==answer)
+		printn ("you guessed it")
+		print (answer)
+		break
+
+	if (guess>answer)
+		printn ("the number is lower")
+
+	if (guess<answer)
+		printn ("the number is higher")
+
+	I++
+
